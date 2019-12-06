@@ -1,0 +1,11 @@
+{
+    "name": "蚂蚁森林",
+    "main":"Ant_Forest_Launcher.js",
+    "ignore": [
+        "build",
+        "Sample"
+    ],
+    "packageName": "cn.m2kar.AntForest",
+    "versionName": "1.0.0",
+    "versionCode": 1
+}
