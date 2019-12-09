@@ -2361,7 +2361,8 @@ function checkEnergy() {
 
             let max_try_times = 3;
             while (max_try_times--) {
-                jumpBackOnce("forcibly_back");
+                back();
+                // jumpBackOnce("forcibly_back");
                 sleep(200);
                 if (waitForAction(condition, 2000)) return true;
                 debugInfo("返回排行榜单次超时");
