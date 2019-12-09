@@ -2029,7 +2029,7 @@ function debugInfo(msg, info_flag, forcible_flag) {
     let global_flag = __global__._monster_$_debug_info_flag;
     // TODO
     // console.warn(global_flag);
-    global_flag=true;
+    // global_flag=true;
     if (!global_flag && !forcible_flag) return;
     if (global_flag === false || forcible_flag === false) return;
 
